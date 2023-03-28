@@ -1,0 +1,140 @@
+h1 {
+    font-size: xx-large;
+    margin: 5px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    background-color: rgb(225, 225, 225);
+    padding: 0px 0px 10px 0px;
+    margin: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.headerBox {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    text-align: center;
+    width: 50%;
+}
+
+.formItem {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.formItem span {
+    width: fit-content;
+}
+
+.formItem input {
+    width: 75%;
+}
+
+form button {
+    align-self: center;
+    width: fit-content;
+    margin: 3px;
+}
+
+main {
+    position: absolute;
+    width: 100%;
+    height: 70%;
+    user-select: none;
+}
+
+#memesContainer {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0px;
+    margin: 0px;
+}
+
+#memeZoneText {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 70%;
+    text-align: center;
+    z-index: 1;
+    color: gray;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 100px;
+}
+
+.memeDiv {
+    z-index: 2;
+    width: fit-content;
+    height: fit-content;
+    margin: 5px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.memeDeleteButton {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    z-index: 4;
+    font-size: 100px;
+    background-color: black;
+    color: white;
+    opacity: 0.8;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+}
+
+.memeTextDiv {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 3;
+}
+
+img {
+    z-index: 2;
+}
+
+.memeDiv span {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke: 2px black;
+}

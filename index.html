@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meme Generator</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="memegen.js"></script>
+</head>
+
+<body>
+  <header>
+    <div class="headerBox">
+      <h1>Meme Generator 9000</h1>
+      <h3>Amusement Guaranteed!</h5>
+    </div>
+    <form action="" id="MemeForm">
+      <div class="formItem">
+        <span>Image URL</span>
+        <input name="imageURL" required>
+      </div>
+      <div class="formItem">
+        <span>Top Text</span>
+        <input name="topText" required>
+      </div>
+      <div class="formItem">
+        <span>Bottom Text</span>
+        <input name="bottomText" required>
+      </div>
+      <br>
+      <button name="submitButton" type="submit">Generate Meme!</button>
+    </form>
+  </header>
+  <main>
+    <div id="memesContainer">
+
+    </div>
+    <div id="memeZoneText">
+      <p>⚠ MEME ZONE ⚠</p>
+    </div>
+  </main>
+</body>
+
+</html>
